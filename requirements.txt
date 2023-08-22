@@ -1,0 +1,3 @@
+opencensus==0.11.2
+opencensus-context==0.1.3
+opencensus-ext-azure==1.1.9
