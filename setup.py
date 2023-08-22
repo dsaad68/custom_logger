@@ -8,7 +8,7 @@ setup(
         name="custom_logger",
         version=VERSION,
         author="Daniel Saad",
-        author_email="<me@dsaad.com>",
+        author_email="<_@dsaad.com>",
         description=DESCRIPTION,
         long_description= LONG_DESCRIPTION,
         packages=find_packages(),
