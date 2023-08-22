@@ -1,6 +1,4 @@
 #%%
-import sys
-sys.path.append("..")
 
 from custom_logger import Logger
 from helper import do

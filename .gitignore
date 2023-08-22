@@ -1,4 +1,7 @@
 __pycache__
 .ruff_cache
 *.log
-
+build
+dist
+custom_logger.egg-info
+my_test.py
