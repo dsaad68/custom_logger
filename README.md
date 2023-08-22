@@ -33,6 +33,15 @@ do()
 # [2023-08-22 18:30:59] - [INFO] - [Tester] - [Windows] - [local] - [{'job_id': 2020}] - (helper.py).do(7) - HELLO
 ```
 
+### Installation
+
+Create the wheel file:
+```bash
+python setup.py sdist bdist_wheel
+```
+
+To install this library, run `pip install <path-to-whl-file>`
+
 ## Dependencies
 This library uses AzureLogHandler from OpenCensus for Azure Application Insights integration:
 * `opencensus`
