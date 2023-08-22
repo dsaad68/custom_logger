@@ -40,7 +40,10 @@ Create the wheel file:
 python setup.py sdist bdist_wheel
 ```
 
-To install this library, run `pip install <path-to-whl-file>`
+To install this library, run:
+```bash
+pip install <path-to-whl-file>
+```
 
 ## Dependencies
 This library uses AzureLogHandler from OpenCensus for Azure Application Insights integration:
