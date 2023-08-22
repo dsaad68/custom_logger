@@ -69,13 +69,6 @@ class Logger:
     To add a custom dimensions to all the logRecords and sent it to Azure App Insights:
     Logger should be initialized with arg with the named `custom_dimensions` and a dict[str,str] should be pass to it.
 
-    Examples
-    --------
-    >>> logger = Logger(custom_dimensions={'job_id': 2020})
-    >>> logger = Logger(username="Tester", OS="Windows", local="local", custom_dimensions={'job_id': 2020}, file_handler=True)
-    >>> logger.get_logger()
-    >>> logging.info("Testing!")
-
     Returns
     -------
     logging.Logger
