@@ -21,12 +21,12 @@ logging.info("Testing!")
 It can affect all the log messages generated within imported modules:
 
 ```python
-import helper
+from custom_logger import Logger
+from helper import do
 
 logger = Logger(username="Tester", OS="Windows", local="local", custom_dimensions={'job_id': 2020}, file_handler=True)
 logger.get_logger()
-
-helper.do()
+do()
 
 # [2023-08-22 18:30:59] - [INFO] - [Tester] - [Windows] - [local] - [{'job_id': 2020}] - (helper.py).do(7) - HELLO
 ```
