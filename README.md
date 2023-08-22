@@ -14,6 +14,7 @@ You can create a logger object with optional parameters for stream handling, fil
 logger = Logger(username="Tester", OS="Windows", local="local", custom_dimensions={'job_id': 2020}, file_handler=True)
 logger.get_logger()
 logging.info("Testing!")
+
 # [2023-08-22 18:28:10] - [INFO] - [Tester] - [Windows] - [local] - [{'job_id': 2020}] - (custom_logger.py).<module>(166) - Testing!
 ```
 
@@ -26,6 +27,7 @@ logger = Logger(username="Tester", OS="Windows", local="local", custom_dimension
 logger.get_logger()
 
 helper.do()
+
 # [2023-08-22 18:30:59] - [INFO] - [Tester] - [Windows] - [local] - [{'job_id': 2020}] - (helper.py).do(7) - HELLO
 ```
 

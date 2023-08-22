@@ -1,1 +1,4 @@
-from .custom_logger import *
+from .logger import Logger
+
+# Version
+__version__ = "0.1.0"
